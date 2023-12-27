@@ -1,0 +1,34 @@
+POST https://profound-entremet-614feb.netlify.app/.netlify/functions/api/user
+Content-Type: application/json
+
+{
+    "name" : "Kiki Isma Indayanti",
+    "email": "kikiIsma0888@gmail.co.id",
+    "gender":"female",
+    "nohp" : "085759535844",
+    "univ" : "UIN Sunan Gunung Djati",
+    "alamat":"Jambii",
+    "status" :"belum Menikah"
+}
+###
+GET http://profound-entremet-614feb.netlify.app/.netlify/functions/api/user
+
+###
+PATCH http://profound-entremet-614feb.netlify.app/.netlify/functions/api/user/6587f01ee6893742e66f3c72
+Content-Type: application/json
+
+{
+    "name" : "Kiki Isma Indayanti",
+    "email": "kikiIsma2222@gmail.com",
+    "gender":"female",
+    "nohp" : "085759535844",
+    "univ" : "UIN Sunan Gunung Djati",
+    "alamat":"Jambi",
+    "Status" :"belum Menikah"
+}
+
+###
+DELETE http://profound-entremet-614feb.netlify.app/.netlify/functions/api/user/6587f01ee6893742e66f3c72
+
+###
+GET http://profound-entremet-614feb.netlify.app/.netlify/functions/api/user/6587e5887b4cf1a9fc25d1d5
